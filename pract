@@ -1,3 +1,116 @@
 hello im prathamesh my roll no is 17
 
- 
+ git commands done 
+
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1
+$ git clone https://github.com/Pratham2312/college-practical.git~
+Cloning into 'college-practical.git~'...
+remote: Repository not found.
+fatal: repository 'https://github.com/Pratham2312/college-practical.git~/' not found
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1
+$ git clone https://github.com/Pratham2312/college-practical.git
+Cloning into 'college-practical'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1
+$ ls
+college-practical/
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1
+$ cd college-practical
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pract
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git add *
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   pract
+
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git commit -m "modified name"
+[main 34098a2] modified name
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git push ^[[200~
+fatal: '?[200~' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git push
+https://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@github.com/Pratham2312/college-practical.git
+
+bash: https://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@github.com/Pratham2312/college-practical.git: No such file or directory
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git push
+https://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@github.com/Pratham2312/college-practical.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 313.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Pratham2312/college-practical.git
+   6a22c6f..34098a2  main -> main
+bash: https://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@github.com/Pratham2312/college-practical.git: No such file or directory
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$ git pull
+Already up to date.
+
+DELL@DESKTOP-MTRB4SV MINGW64 ~/Desktop/pract 1/college-practical (main)
+$
